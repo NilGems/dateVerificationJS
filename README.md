@@ -12,15 +12,17 @@ dateStatus is now FALSE because date is correct.
 Optional parameter. (Default value of **min** is 1970)
 ### date : 
 Required parameter.
-You need to define date as string and in correct format \(DD\-MM\-YYYY\)
-# Date error code
+You need to define date as string and in correct format (DD-MM-YYYY).
+# Output Code
+
 - 1 \- Date is not valid.
 - 2 \- Year is not valid.
 - 3 \- Year is less then minimum year range.
 - 4 \- Year is gater then maximum year range.
 - 5 \- Month is invalid.
 - 6 \- Date is invalid (\*N.B\: If date is less then 0 or greater then 31).
-- 7 \- Date is invalid (\*N.B\: If date is not valid for this month )
-\*\*\*\ Function give you false return if date is correct.
+- 7 \- Date is invalid (\*N.B\: If date is not valid for this month ).
+- **false** \- Date is valid.
+
 # Dependency
 No dependency
