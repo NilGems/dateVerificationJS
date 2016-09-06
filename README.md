@@ -6,13 +6,13 @@ range parameter is optional.
 # Example
 var dateStatus=({date:'06-09-2016',range:{max:2016,min:1990}}).dateVerificationJS();
 # Date error code
-- 1 - Date is not valid
-- 2 - Year is not valid
-- 3 - Year is less then minimum year range
-- 4 - Year is gater then maximum year range
-- 5 - Month is invalid
-- 6 - Date is invalid (*N.B: If date is less then 0 or greater then 31)
-- 7 - Date is invalid (*N.B: If date is not valid for this month )
+- 1 \- Date is not valid
+- 2 \- Year is not valid
+- 3 \- Year is less then minimum year range
+- 4 \- Year is gater then maximum year range
+- 5 \- Month is invalid
+- 6 \- Date is invalid (\*N.B: If date is less then 0 or greater then 31)
+- 7 \- Date is invalid (\*N.B: If date is not valid for this month )
 # Dependency
 No dependency
 # Parameter
