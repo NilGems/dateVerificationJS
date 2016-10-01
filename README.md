@@ -8,8 +8,8 @@ var dateStatus=({date:'06-09-2016',range:{max:2016,min:1990}}).dateVerificationJ
 dateStatus is now FALSE because date is correct.
 # Format
 ({ date:'DD-MM-YYYY', range:{ max:YYYY,min:YYYY } }).dateVerificationJS().
-###  rage : 
-Optional parameter. (Default value of **min** is 1970)
+###  range : 
+Optional parameter. (Default value of **min** is 1800)
 ### date : 
 Required parameter.
 You need to define date as string and in correct format (DD-MM-YYYY).
